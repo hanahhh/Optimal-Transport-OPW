@@ -1,5 +1,3 @@
-# POW
-
 # For Developers
 
 ## Setup
@@ -11,6 +9,14 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements/dev.txt
 pre-commit install
+```
+
+### Download data set
+
+Example:
+
+```bash
+python -m scripts.download_data --data wei
 ```
 
 # Run experiments
